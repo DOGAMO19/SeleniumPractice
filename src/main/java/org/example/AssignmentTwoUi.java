@@ -27,7 +27,7 @@ public class AssignmentTwoUi {
         //Dar click en el radio button
         driver.findElement(By.id("exampleCheck1")).click();
 
-        //Poceso para seleccionar una opcion de un dropdown estatico
+        //Proceso para seleccionar una opcion de un dropdown estatico
         //Guardamos en una variable el webElement del dropdown, en este caso lo obtendremos por su id
         WebElement genderDropdown = driver.findElement(By.id("exampleFormControlSelect1"));
         //Creamos un objeto con la clase SELECT (esto porque el elemento es de tipo select) y le pasamos como referencia a la clase el webelement
